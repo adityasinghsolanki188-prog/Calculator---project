@@ -1,0 +1,61 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#222;
+color:white;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:linear-gradient(120deg,#667eea,#764ba2);
+color:white;
+}
+
+.hero button{
+padding:12px 25px;
+border:none;
+background:white;
+color:#333;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.features{
+display:flex;
+justify-content:center;
+padding:40px;
+gap:20px;
+}
+
+.feature{
+background:white;
+padding:20px;
+width:250px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+footer{
+text-align:center;
+padding:15px;
+background:#222;
+color:white;
+}
